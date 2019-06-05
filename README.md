@@ -19,4 +19,4 @@ File Sizes:
 - medium.json - 21,347,852 bytes (21.3 MB)
 - large.json - 177,435,045 bytes (177.4 MB)
 
-To see the output from the JSON Benchmarks, see the [outputs directory](https://github.com/coby-spotim/elixir-random-benchmarks/blob/master/outputs)
+To see the output from the JSON Benchmarks, see the [outputs directory](https://github.com/coby-spotim/elixir-random-benchmarks/tree/master/ouputs)
