@@ -2,6 +2,11 @@ defmodule JsonBenchmarks do
   @moduledoc """
   A Simple Elixir Project For My Own Benchmarking And Testing Purposes (JSON Edition)
   """
+  def run_json_benchmarks do
+    decode()
+    encode()
+  end
+
   def decode do
     Benchee.run(
       %{
@@ -16,6 +21,12 @@ defmodule JsonBenchmarks do
         end,
         "jiffy with copy strings" => fn input ->
           :jiffy.decode(input, [:return_maps, :use_nil, :copy_strings])
+        end,
+        "jiffy_ex" => fn input ->
+          JiffyEx.decode!(input, return_maps: true, use_nil: true)
+        end,
+        "jiffy_ex with copy strings" => fn input ->
+          JiffyEx.decode!(input, return_maps: true, use_nil: true, copy_strings: true)
         end,
         "Tiny" => fn input ->
           Tiny.decode!(input)
@@ -60,6 +71,18 @@ defmodule JsonBenchmarks do
         end,
         "jiffy force utf8 and escape forward slashes" => fn input ->
           :jiffy.encode(input, [:use_nil, :force_utf8, :escape_forward_slashes])
+        end,
+        "jiffy_ex" => fn input ->
+          JiffyEx.encode!(input, use_nil: true)
+        end,
+        "jiffy_ex force utf8" => fn input ->
+          JiffyEx.encode!(input, use_nil: true, force_utf8: true)
+        end,
+        "jiffy_ex escape forward slashes" => fn input ->
+          JiffyEx.encode!(input, use_nil: true, escape_forward_slashes: true)
+        end,
+        "jiffy_ex force utf8 and escape forward slashes" => fn input ->
+          JiffyEx.encode!(input, use_nil: true, force_utf8: true, escape_forward_slashes: true)
         end,
         "Tiny" => fn input ->
           Tiny.encode!(input)

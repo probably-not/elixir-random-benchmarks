@@ -1,6 +1,6 @@
 # Benchmark
 
-Benchmark run from 2019-06-05 07:06:58.481911Z UTC
+Benchmark run from 2019-06-11 07:18:18.257500Z UTC
 
 ## System
 
@@ -64,50 +64,66 @@ Run Time
   <tr>
     <td style="white-space: nowrap">jiffy</td>
     <td style="white-space: nowrap; text-align: right">0.40</td>
-    <td style="white-space: nowrap; text-align: right">2.49 s</td>
-    <td style="white-space: nowrap; text-align: right">±15.93%</td>
-    <td style="white-space: nowrap; text-align: right">2.49 s</td>
+    <td style="white-space: nowrap; text-align: right">2.50 s</td>
+    <td style="white-space: nowrap; text-align: right">±13.58%</td>
+    <td style="white-space: nowrap; text-align: right">2.50 s</td>
+    <td style="white-space: nowrap; text-align: right">2.74 s</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">0.39</td>
+    <td style="white-space: nowrap; text-align: right">2.56 s</td>
+    <td style="white-space: nowrap; text-align: right">±11.66%</td>
+    <td style="white-space: nowrap; text-align: right">2.56 s</td>
     <td style="white-space: nowrap; text-align: right">2.77 s</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
     <td style="white-space: nowrap; text-align: right">0.32</td>
-    <td style="white-space: nowrap; text-align: right">3.15 s</td>
-    <td style="white-space: nowrap; text-align: right">±10.65%</td>
-    <td style="white-space: nowrap; text-align: right">3.15 s</td>
-    <td style="white-space: nowrap; text-align: right">3.39 s</td>
+    <td style="white-space: nowrap; text-align: right">3.08 s</td>
+    <td style="white-space: nowrap; text-align: right">±15.88%</td>
+    <td style="white-space: nowrap; text-align: right">3.08 s</td>
+    <td style="white-space: nowrap; text-align: right">3.43 s</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">0.30</td>
+    <td style="white-space: nowrap; text-align: right">3.36 s</td>
+    <td style="white-space: nowrap; text-align: right">±15.43%</td>
+    <td style="white-space: nowrap; text-align: right">3.36 s</td>
+    <td style="white-space: nowrap; text-align: right">3.73 s</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">0.143</td>
-    <td style="white-space: nowrap; text-align: right">6.98 s</td>
+    <td style="white-space: nowrap; text-align: right">0.126</td>
+    <td style="white-space: nowrap; text-align: right">7.93 s</td>
     <td style="white-space: nowrap; text-align: right">±0.00%</td>
-    <td style="white-space: nowrap; text-align: right">6.98 s</td>
-    <td style="white-space: nowrap; text-align: right">6.98 s</td>
+    <td style="white-space: nowrap; text-align: right">7.93 s</td>
+    <td style="white-space: nowrap; text-align: right">7.93 s</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">0.0751</td>
-    <td style="white-space: nowrap; text-align: right">13.31 s</td>
+    <td style="white-space: nowrap; text-align: right">0.0802</td>
+    <td style="white-space: nowrap; text-align: right">12.46 s</td>
     <td style="white-space: nowrap; text-align: right">±0.00%</td>
-    <td style="white-space: nowrap; text-align: right">13.31 s</td>
-    <td style="white-space: nowrap; text-align: right">13.31 s</td>
+    <td style="white-space: nowrap; text-align: right">12.46 s</td>
+    <td style="white-space: nowrap; text-align: right">12.46 s</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">0.0679</td>
-    <td style="white-space: nowrap; text-align: right">14.72 s</td>
+    <td style="white-space: nowrap; text-align: right">0.0721</td>
+    <td style="white-space: nowrap; text-align: right">13.86 s</td>
     <td style="white-space: nowrap; text-align: right">±0.00%</td>
-    <td style="white-space: nowrap; text-align: right">14.72 s</td>
-    <td style="white-space: nowrap; text-align: right">14.72 s</td>
+    <td style="white-space: nowrap; text-align: right">13.86 s</td>
+    <td style="white-space: nowrap; text-align: right">13.86 s</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">0.0246</td>
-    <td style="white-space: nowrap; text-align: right">40.60 s</td>
+    <td style="white-space: nowrap; text-align: right">0.0254</td>
+    <td style="white-space: nowrap; text-align: right">39.44 s</td>
     <td style="white-space: nowrap; text-align: right">±0.00%</td>
-    <td style="white-space: nowrap; text-align: right">40.60 s</td>
-    <td style="white-space: nowrap; text-align: right">40.60 s</td>
+    <td style="white-space: nowrap; text-align: right">39.44 s</td>
+    <td style="white-space: nowrap; text-align: right">39.44 s</td>
   </tr>
 </table>
 
@@ -123,29 +139,39 @@ Comparsion
     <td>&nbsp;</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">0.39</td>
+    <td style="white-space: nowrap; text-align: right">1.02x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
     <td style="white-space: nowrap; text-align: right">0.32</td>
-    <td style="white-space: nowrap; text-align: right">1.26x</td>
+    <td style="white-space: nowrap; text-align: right">1.23x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">0.30</td>
+    <td style="white-space: nowrap; text-align: right">1.34x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">0.143</td>
-    <td style="white-space: nowrap; text-align: right">2.8x</td>
+    <td style="white-space: nowrap; text-align: right">0.126</td>
+    <td style="white-space: nowrap; text-align: right">3.17x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">0.0751</td>
-    <td style="white-space: nowrap; text-align: right">5.34x</td>
+    <td style="white-space: nowrap; text-align: right">0.0802</td>
+    <td style="white-space: nowrap; text-align: right">4.99x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">0.0679</td>
-    <td style="white-space: nowrap; text-align: right">5.91x</td>
+    <td style="white-space: nowrap; text-align: right">0.0721</td>
+    <td style="white-space: nowrap; text-align: right">5.55x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">0.0246</td>
-    <td style="white-space: nowrap; text-align: right">16.29x</td>
+    <td style="white-space: nowrap; text-align: right">0.0254</td>
+    <td style="white-space: nowrap; text-align: right">15.77x</td>
   </tr>
 </table>
 
@@ -158,33 +184,43 @@ Memory Usage
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy</td>
-    <td style="white-space: nowrap">0.42 GB</td>
+    <td style="white-space: nowrap">431.03 MB</td>
       <td>&nbsp;</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap">431.03 MB</td>
+    <td>1.0x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
-    <td style="white-space: nowrap">0.39 GB</td>
+    <td style="white-space: nowrap">402.91 MB</td>
+    <td>0.93x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap">402.91 MB</td>
     <td>0.93x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap">0.36 GB</td>
+    <td style="white-space: nowrap">370.58 MB</td>
     <td>0.86x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap">1.96 GB</td>
+    <td style="white-space: nowrap">2005.31 MB</td>
     <td>4.65x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap">2.37 GB</td>
-    <td>5.62x</td>
+    <td style="white-space: nowrap">2239.13 MB</td>
+    <td>5.19x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap">11.52 GB</td>
-    <td>27.38x</td>
+    <td style="white-space: nowrap">11797.79 MB</td>
+    <td>27.37x</td>
   </tr>
 </table>
 
@@ -204,51 +240,67 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy</td>
-    <td style="white-space: nowrap; text-align: right">3.82</td>
-    <td style="white-space: nowrap; text-align: right">0.26 s</td>
-    <td style="white-space: nowrap; text-align: right">±2.71%</td>
-    <td style="white-space: nowrap; text-align: right">0.26 s</td>
-    <td style="white-space: nowrap; text-align: right">0.28 s</td>
+    <td style="white-space: nowrap; text-align: right">3.96</td>
+    <td style="white-space: nowrap; text-align: right">252.45 ms</td>
+    <td style="white-space: nowrap; text-align: right">±4.01%</td>
+    <td style="white-space: nowrap; text-align: right">251.24 ms</td>
+    <td style="white-space: nowrap; text-align: right">288.71 ms</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">3.80</td>
+    <td style="white-space: nowrap; text-align: right">263.16 ms</td>
+    <td style="white-space: nowrap; text-align: right">±3.68%</td>
+    <td style="white-space: nowrap; text-align: right">262.25 ms</td>
+    <td style="white-space: nowrap; text-align: right">286.55 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
-    <td style="white-space: nowrap; text-align: right">3.73</td>
-    <td style="white-space: nowrap; text-align: right">0.27 s</td>
-    <td style="white-space: nowrap; text-align: right">±2.40%</td>
-    <td style="white-space: nowrap; text-align: right">0.27 s</td>
-    <td style="white-space: nowrap; text-align: right">0.29 s</td>
+    <td style="white-space: nowrap; text-align: right">3.35</td>
+    <td style="white-space: nowrap; text-align: right">298.48 ms</td>
+    <td style="white-space: nowrap; text-align: right">±9.57%</td>
+    <td style="white-space: nowrap; text-align: right">287.39 ms</td>
+    <td style="white-space: nowrap; text-align: right">349.13 ms</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">2.35</td>
+    <td style="white-space: nowrap; text-align: right">426.21 ms</td>
+    <td style="white-space: nowrap; text-align: right">±27.76%</td>
+    <td style="white-space: nowrap; text-align: right">457.78 ms</td>
+    <td style="white-space: nowrap; text-align: right">610.47 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">1.51</td>
-    <td style="white-space: nowrap; text-align: right">0.66 s</td>
-    <td style="white-space: nowrap; text-align: right">±4.61%</td>
-    <td style="white-space: nowrap; text-align: right">0.66 s</td>
-    <td style="white-space: nowrap; text-align: right">0.72 s</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">0.75</td>
-    <td style="white-space: nowrap; text-align: right">1.34 s</td>
-    <td style="white-space: nowrap; text-align: right">±0.49%</td>
-    <td style="white-space: nowrap; text-align: right">1.34 s</td>
-    <td style="white-space: nowrap; text-align: right">1.35 s</td>
+    <td style="white-space: nowrap; text-align: right">1.62</td>
+    <td style="white-space: nowrap; text-align: right">618.03 ms</td>
+    <td style="white-space: nowrap; text-align: right">±2.25%</td>
+    <td style="white-space: nowrap; text-align: right">611.33 ms</td>
+    <td style="white-space: nowrap; text-align: right">644.93 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">0.72</td>
-    <td style="white-space: nowrap; text-align: right">1.39 s</td>
-    <td style="white-space: nowrap; text-align: right">±15.00%</td>
-    <td style="white-space: nowrap; text-align: right">1.35 s</td>
-    <td style="white-space: nowrap; text-align: right">1.67 s</td>
+    <td style="white-space: nowrap; text-align: right">0.87</td>
+    <td style="white-space: nowrap; text-align: right">1151.52 ms</td>
+    <td style="white-space: nowrap; text-align: right">±2.17%</td>
+    <td style="white-space: nowrap; text-align: right">1148.58 ms</td>
+    <td style="white-space: nowrap; text-align: right">1193.54 ms</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Poison</td>
+    <td style="white-space: nowrap; text-align: right">0.82</td>
+    <td style="white-space: nowrap; text-align: right">1215.28 ms</td>
+    <td style="white-space: nowrap; text-align: right">±0.63%</td>
+    <td style="white-space: nowrap; text-align: right">1217.03 ms</td>
+    <td style="white-space: nowrap; text-align: right">1222.27 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">0.0574</td>
-    <td style="white-space: nowrap; text-align: right">17.42 s</td>
+    <td style="white-space: nowrap; text-align: right">0.0616</td>
+    <td style="white-space: nowrap; text-align: right">16221.08 ms</td>
     <td style="white-space: nowrap; text-align: right">±0.00%</td>
-    <td style="white-space: nowrap; text-align: right">17.42 s</td>
-    <td style="white-space: nowrap; text-align: right">17.42 s</td>
+    <td style="white-space: nowrap; text-align: right">16221.08 ms</td>
+    <td style="white-space: nowrap; text-align: right">16221.08 ms</td>
   </tr>
 </table>
 
@@ -260,33 +312,43 @@ Comparsion
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">jiffy</td>
-    <td style="white-space: nowrap;text-align: right">3.82</td>
+    <td style="white-space: nowrap;text-align: right">3.96</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">3.80</td>
+    <td style="white-space: nowrap; text-align: right">1.04x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
-    <td style="white-space: nowrap; text-align: right">3.73</td>
-    <td style="white-space: nowrap; text-align: right">1.03x</td>
+    <td style="white-space: nowrap; text-align: right">3.35</td>
+    <td style="white-space: nowrap; text-align: right">1.18x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">2.35</td>
+    <td style="white-space: nowrap; text-align: right">1.69x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">1.51</td>
-    <td style="white-space: nowrap; text-align: right">2.53x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">0.75</td>
-    <td style="white-space: nowrap; text-align: right">5.12x</td>
+    <td style="white-space: nowrap; text-align: right">1.62</td>
+    <td style="white-space: nowrap; text-align: right">2.45x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">0.72</td>
-    <td style="white-space: nowrap; text-align: right">5.31x</td>
+    <td style="white-space: nowrap; text-align: right">0.87</td>
+    <td style="white-space: nowrap; text-align: right">4.56x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Poison</td>
+    <td style="white-space: nowrap; text-align: right">0.82</td>
+    <td style="white-space: nowrap; text-align: right">4.81x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">0.0574</td>
-    <td style="white-space: nowrap; text-align: right">66.61x</td>
+    <td style="white-space: nowrap; text-align: right">0.0616</td>
+    <td style="white-space: nowrap; text-align: right">64.25x</td>
   </tr>
 </table>
 
@@ -303,7 +365,17 @@ Memory Usage
       <td>&nbsp;</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap">52.13 MB</td>
+    <td>1.0x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
+    <td style="white-space: nowrap">48.69 MB</td>
+    <td>0.93x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
     <td style="white-space: nowrap">48.69 MB</td>
     <td>0.93x</td>
   </tr>
@@ -313,18 +385,18 @@ Memory Usage
     <td>0.88x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap">299.26 MB</td>
-    <td>5.74x</td>
-  </tr>
-  <tr>
     <td style="white-space: nowrap">Tiny</td>
     <td style="white-space: nowrap">256.65 MB</td>
     <td>4.92x</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">Poison</td>
+    <td style="white-space: nowrap">279.22 MB</td>
+    <td>5.36x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap">8065.00 MB</td>
+    <td style="white-space: nowrap">8064.95 MB</td>
     <td>154.71x</td>
   </tr>
 </table>
@@ -345,51 +417,67 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy</td>
-    <td style="white-space: nowrap; text-align: right">28.20</td>
-    <td style="white-space: nowrap; text-align: right">35.46 ms</td>
-    <td style="white-space: nowrap; text-align: right">±18.29%</td>
-    <td style="white-space: nowrap; text-align: right">33.76 ms</td>
-    <td style="white-space: nowrap; text-align: right">60.80 ms</td>
+    <td style="white-space: nowrap; text-align: right">32.73</td>
+    <td style="white-space: nowrap; text-align: right">30.56 ms</td>
+    <td style="white-space: nowrap; text-align: right">±8.37%</td>
+    <td style="white-space: nowrap; text-align: right">30.45 ms</td>
+    <td style="white-space: nowrap; text-align: right">36.87 ms</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">30.27</td>
+    <td style="white-space: nowrap; text-align: right">33.03 ms</td>
+    <td style="white-space: nowrap; text-align: right">±3.16%</td>
+    <td style="white-space: nowrap; text-align: right">32.72 ms</td>
+    <td style="white-space: nowrap; text-align: right">38.04 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
-    <td style="white-space: nowrap; text-align: right">24.86</td>
-    <td style="white-space: nowrap; text-align: right">40.22 ms</td>
-    <td style="white-space: nowrap; text-align: right">±45.72%</td>
-    <td style="white-space: nowrap; text-align: right">36.65 ms</td>
-    <td style="white-space: nowrap; text-align: right">189.98 ms</td>
+    <td style="white-space: nowrap; text-align: right">29.38</td>
+    <td style="white-space: nowrap; text-align: right">34.04 ms</td>
+    <td style="white-space: nowrap; text-align: right">±10.24%</td>
+    <td style="white-space: nowrap; text-align: right">33.15 ms</td>
+    <td style="white-space: nowrap; text-align: right">57.07 ms</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">25.08</td>
+    <td style="white-space: nowrap; text-align: right">39.87 ms</td>
+    <td style="white-space: nowrap; text-align: right">±77.77%</td>
+    <td style="white-space: nowrap; text-align: right">30.69 ms</td>
+    <td style="white-space: nowrap; text-align: right">260.39 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">15.57</td>
-    <td style="white-space: nowrap; text-align: right">64.21 ms</td>
-    <td style="white-space: nowrap; text-align: right">±7.65%</td>
-    <td style="white-space: nowrap; text-align: right">63.07 ms</td>
-    <td style="white-space: nowrap; text-align: right">91.02 ms</td>
+    <td style="white-space: nowrap; text-align: right">17.13</td>
+    <td style="white-space: nowrap; text-align: right">58.37 ms</td>
+    <td style="white-space: nowrap; text-align: right">±5.27%</td>
+    <td style="white-space: nowrap; text-align: right">57.31 ms</td>
+    <td style="white-space: nowrap; text-align: right">72.53 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">10.56</td>
-    <td style="white-space: nowrap; text-align: right">94.68 ms</td>
-    <td style="white-space: nowrap; text-align: right">±2.35%</td>
-    <td style="white-space: nowrap; text-align: right">94.22 ms</td>
-    <td style="white-space: nowrap; text-align: right">101.19 ms</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">5.99</td>
-    <td style="white-space: nowrap; text-align: right">166.85 ms</td>
-    <td style="white-space: nowrap; text-align: right">±9.37%</td>
-    <td style="white-space: nowrap; text-align: right">164.46 ms</td>
-    <td style="white-space: nowrap; text-align: right">218.06 ms</td>
+    <td style="white-space: nowrap; text-align: right">11.26</td>
+    <td style="white-space: nowrap; text-align: right">88.78 ms</td>
+    <td style="white-space: nowrap; text-align: right">±2.24%</td>
+    <td style="white-space: nowrap; text-align: right">88.27 ms</td>
+    <td style="white-space: nowrap; text-align: right">98.19 ms</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">4.83</td>
-    <td style="white-space: nowrap; text-align: right">207.11 ms</td>
-    <td style="white-space: nowrap; text-align: right">±16.88%</td>
-    <td style="white-space: nowrap; text-align: right">197.53 ms</td>
-    <td style="white-space: nowrap; text-align: right">302.24 ms</td>
+    <td style="white-space: nowrap; text-align: right">6.12</td>
+    <td style="white-space: nowrap; text-align: right">163.38 ms</td>
+    <td style="white-space: nowrap; text-align: right">±1.28%</td>
+    <td style="white-space: nowrap; text-align: right">163.11 ms</td>
+    <td style="white-space: nowrap; text-align: right">168.99 ms</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Tiny</td>
+    <td style="white-space: nowrap; text-align: right">5.46</td>
+    <td style="white-space: nowrap; text-align: right">183.18 ms</td>
+    <td style="white-space: nowrap; text-align: right">±36.92%</td>
+    <td style="white-space: nowrap; text-align: right">170.09 ms</td>
+    <td style="white-space: nowrap; text-align: right">518.95 ms</td>
   </tr>
 </table>
 
@@ -401,33 +489,43 @@ Comparsion
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">jiffy</td>
-    <td style="white-space: nowrap;text-align: right">28.20</td>
+    <td style="white-space: nowrap;text-align: right">32.73</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">30.27</td>
+    <td style="white-space: nowrap; text-align: right">1.08x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
-    <td style="white-space: nowrap; text-align: right">24.86</td>
-    <td style="white-space: nowrap; text-align: right">1.13x</td>
+    <td style="white-space: nowrap; text-align: right">29.38</td>
+    <td style="white-space: nowrap; text-align: right">1.11x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">25.08</td>
+    <td style="white-space: nowrap; text-align: right">1.3x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">15.57</td>
-    <td style="white-space: nowrap; text-align: right">1.81x</td>
+    <td style="white-space: nowrap; text-align: right">17.13</td>
+    <td style="white-space: nowrap; text-align: right">1.91x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">10.56</td>
-    <td style="white-space: nowrap; text-align: right">2.67x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">5.99</td>
-    <td style="white-space: nowrap; text-align: right">4.7x</td>
+    <td style="white-space: nowrap; text-align: right">11.26</td>
+    <td style="white-space: nowrap; text-align: right">2.91x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">4.83</td>
-    <td style="white-space: nowrap; text-align: right">5.84x</td>
+    <td style="white-space: nowrap; text-align: right">6.12</td>
+    <td style="white-space: nowrap; text-align: right">5.35x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Tiny</td>
+    <td style="white-space: nowrap; text-align: right">5.46</td>
+    <td style="white-space: nowrap; text-align: right">5.99x</td>
   </tr>
 </table>
 
@@ -444,9 +542,19 @@ Memory Usage
       <td>&nbsp;</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap">8.56 MB</td>
+    <td>0.94x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
     <td style="white-space: nowrap">8.56 MB</td>
     <td>0.94x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap">9.11 MB</td>
+    <td>1.0x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
@@ -459,14 +567,14 @@ Memory Usage
     <td>0.83x</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">Poison</td>
+    <td style="white-space: nowrap">47.59 MB</td>
+    <td>5.22x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">Tiny</td>
     <td style="white-space: nowrap">40.54 MB</td>
     <td>4.45x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap">51.20 MB</td>
-    <td>5.62x</td>
   </tr>
 </table>
 
@@ -486,51 +594,67 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy</td>
-    <td style="white-space: nowrap; text-align: right">66.22 K</td>
-    <td style="white-space: nowrap; text-align: right">15.10 μs</td>
-    <td style="white-space: nowrap; text-align: right">±372.02%</td>
-    <td style="white-space: nowrap; text-align: right">10 μs</td>
-    <td style="white-space: nowrap; text-align: right">42 μs</td>
+    <td style="white-space: nowrap; text-align: right">65.14 K</td>
+    <td style="white-space: nowrap; text-align: right">15.35 μs</td>
+    <td style="white-space: nowrap; text-align: right">±485.87%</td>
+    <td style="white-space: nowrap; text-align: right">9.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">44.98 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">64.31 K</td>
+    <td style="white-space: nowrap; text-align: right">15.55 μs</td>
+    <td style="white-space: nowrap; text-align: right">±361.22%</td>
+    <td style="white-space: nowrap; text-align: right">10.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">38.98 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">62.87 K</td>
+    <td style="white-space: nowrap; text-align: right">15.91 μs</td>
+    <td style="white-space: nowrap; text-align: right">±356.25%</td>
+    <td style="white-space: nowrap; text-align: right">10.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">46.98 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
-    <td style="white-space: nowrap; text-align: right">63.60 K</td>
-    <td style="white-space: nowrap; text-align: right">15.72 μs</td>
-    <td style="white-space: nowrap; text-align: right">±362.57%</td>
-    <td style="white-space: nowrap; text-align: right">11 μs</td>
-    <td style="white-space: nowrap; text-align: right">43 μs</td>
+    <td style="white-space: nowrap; text-align: right">58.54 K</td>
+    <td style="white-space: nowrap; text-align: right">17.08 μs</td>
+    <td style="white-space: nowrap; text-align: right">±381.24%</td>
+    <td style="white-space: nowrap; text-align: right">10.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">58.98 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">48.19 K</td>
-    <td style="white-space: nowrap; text-align: right">20.75 μs</td>
-    <td style="white-space: nowrap; text-align: right">±286.02%</td>
-    <td style="white-space: nowrap; text-align: right">13 μs</td>
-    <td style="white-space: nowrap; text-align: right">127 μs</td>
+    <td style="white-space: nowrap; text-align: right">50.60 K</td>
+    <td style="white-space: nowrap; text-align: right">19.76 μs</td>
+    <td style="white-space: nowrap; text-align: right">±287.84%</td>
+    <td style="white-space: nowrap; text-align: right">12.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">111.98 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">31.68 K</td>
-    <td style="white-space: nowrap; text-align: right">31.56 μs</td>
-    <td style="white-space: nowrap; text-align: right">±137.66%</td>
-    <td style="white-space: nowrap; text-align: right">26 μs</td>
-    <td style="white-space: nowrap; text-align: right">94 μs</td>
+    <td style="white-space: nowrap; text-align: right">21.99 K</td>
+    <td style="white-space: nowrap; text-align: right">45.47 μs</td>
+    <td style="white-space: nowrap; text-align: right">±526.47%</td>
+    <td style="white-space: nowrap; text-align: right">28.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">332.98 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">19.27 K</td>
-    <td style="white-space: nowrap; text-align: right">51.88 μs</td>
-    <td style="white-space: nowrap; text-align: right">±125.31%</td>
-    <td style="white-space: nowrap; text-align: right">35 μs</td>
-    <td style="white-space: nowrap; text-align: right">392 μs</td>
+    <td style="white-space: nowrap; text-align: right">20.98 K</td>
+    <td style="white-space: nowrap; text-align: right">47.65 μs</td>
+    <td style="white-space: nowrap; text-align: right">±122.49%</td>
+    <td style="white-space: nowrap; text-align: right">31.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">378.98 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">16.77 K</td>
-    <td style="white-space: nowrap; text-align: right">59.62 μs</td>
-    <td style="white-space: nowrap; text-align: right">±129.38%</td>
-    <td style="white-space: nowrap; text-align: right">42 μs</td>
-    <td style="white-space: nowrap; text-align: right">381 μs</td>
+    <td style="white-space: nowrap; text-align: right">17.73 K</td>
+    <td style="white-space: nowrap; text-align: right">56.40 μs</td>
+    <td style="white-space: nowrap; text-align: right">±124.76%</td>
+    <td style="white-space: nowrap; text-align: right">37.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">378.98 μs</td>
   </tr>
 </table>
 
@@ -542,33 +666,43 @@ Comparsion
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">jiffy</td>
-    <td style="white-space: nowrap;text-align: right">66.22 K</td>
+    <td style="white-space: nowrap;text-align: right">65.14 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">jiffy with copy strings</td>
-    <td style="white-space: nowrap; text-align: right">63.60 K</td>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">64.31 K</td>
+    <td style="white-space: nowrap; text-align: right">1.01x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap; text-align: right">62.87 K</td>
     <td style="white-space: nowrap; text-align: right">1.04x</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">jiffy with copy strings</td>
+    <td style="white-space: nowrap; text-align: right">58.54 K</td>
+    <td style="white-space: nowrap; text-align: right">1.11x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">Jaxon</td>
-    <td style="white-space: nowrap; text-align: right">48.19 K</td>
-    <td style="white-space: nowrap; text-align: right">1.37x</td>
+    <td style="white-space: nowrap; text-align: right">50.60 K</td>
+    <td style="white-space: nowrap; text-align: right">1.29x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Jason</td>
-    <td style="white-space: nowrap; text-align: right">31.68 K</td>
-    <td style="white-space: nowrap; text-align: right">2.09x</td>
+    <td style="white-space: nowrap; text-align: right">21.99 K</td>
+    <td style="white-space: nowrap; text-align: right">2.96x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tiny</td>
-    <td style="white-space: nowrap; text-align: right">19.27 K</td>
-    <td style="white-space: nowrap; text-align: right">3.44x</td>
+    <td style="white-space: nowrap; text-align: right">20.98 K</td>
+    <td style="white-space: nowrap; text-align: right">3.1x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap; text-align: right">16.77 K</td>
-    <td style="white-space: nowrap; text-align: right">3.95x</td>
+    <td style="white-space: nowrap; text-align: right">17.73 K</td>
+    <td style="white-space: nowrap; text-align: right">3.67x</td>
   </tr>
 </table>
 
@@ -583,6 +717,16 @@ Memory Usage
     <td style="white-space: nowrap">jiffy</td>
     <td style="white-space: nowrap">1.57 KB</td>
       <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex with copy strings</td>
+    <td style="white-space: nowrap">1.57 KB</td>
+    <td>1.0x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">jiffy_ex</td>
+    <td style="white-space: nowrap">1.58 KB</td>
+    <td>1.0x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">jiffy with copy strings</td>
@@ -606,8 +750,8 @@ Memory Usage
   </tr>
   <tr>
     <td style="white-space: nowrap">Poison</td>
-    <td style="white-space: nowrap">29.88 KB</td>
-    <td>19.03x</td>
+    <td style="white-space: nowrap">27.87 KB</td>
+    <td>17.75x</td>
   </tr>
 </table>
 

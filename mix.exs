@@ -28,7 +28,8 @@ defmodule RandomBenchmarks.MixProject do
       {:poison, ">= 0.0.0"},
       {:tiny, ">= 0.0.0"},
       {:jaxon, ">= 0.0.0"},
-      {:jiffy, ">= 0.0.0"}
+      {:jiffy, ">= 0.0.0"},
+      {:jiffy_ex, ">= 0.0.0"}
     ]
   end
 end
