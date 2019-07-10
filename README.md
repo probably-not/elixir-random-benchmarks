@@ -2,7 +2,7 @@
 
 A collection of functions I've been using to benchmark various Elixir functionalities.
 
-As part of building out [Stargate](https://github.com/coby-spotim/stargate), I've been trying to use the fastest and most performant functions in Elixir.
+As part of building out [Starship](https://github.com/coby-spotim/starship), I've been trying to use the fastest and most performant functions in Elixir.
 This project is what I use to benchmark random functions in order to choose the best and fastest functions.
 
 ## Current Benchmarks
