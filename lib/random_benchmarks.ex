@@ -323,4 +323,28 @@ defmodule RandomBenchmarks do
 
     :ok
   end
+
+  def prepend_and_reverse_vs_append do
+    Benchee.run(%{
+      "prepend_and_enum_reverse_cons" => fn ->
+        v = Enum.reduce(1..1_000_000, [], fn i, acc -> [to_string(i) | acc] end)
+        Enum.reverse(v) |> write_to_file()
+      end,
+      "prepend_and_enum_reverse_improper" => fn ->
+        v = Enum.reduce(1..1_000_000, [], fn i, acc -> [to_string(i)] ++ [acc] end)
+        List.flatten(v) |> Enum.reverse() |> write_to_file()
+      end,
+      "append_improper" => fn ->
+        v = Enum.reduce(1..1_000_000, [], fn i, acc -> [acc] ++ [to_string(i)] end)
+        List.flatten(v) |> write_to_file()
+      end
+    })
+
+    :ok
+  end
+
+  defp write_to_file(list) do
+    file = File.open!("priv/list_benchmarks", [:append])
+    Enum.each(list, &IO.write(file, [&1, "\n"]))
+  end
 end
